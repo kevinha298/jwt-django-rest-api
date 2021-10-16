@@ -4,7 +4,7 @@ An API with  basic Authentication using docker containers with django and postgr
 1) Open git bash from local repository directory
 
 2) Clone project from remote git to local repositorydirectory:
-git clone https://github.com/kevinha298/simple-auth-django-rest-api.git
+git clone https://github.com/kevinha298/jwt-django-rest-api.git
 
 3) Open project in vs code:
 code .
