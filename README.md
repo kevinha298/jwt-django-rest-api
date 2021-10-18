@@ -28,7 +28,7 @@ http://127.0.0.1:8000/admin/
 9) On the second terminal session for the following instructions (get into the app service of the django_app container to create a super user).
 docker-compose exec app sh
 
-10) Once inside the app service of the django_app container, create a super user and enter username, email address, and password
+10) Once inside the app service of the django_app container, create a super user and enter username, email address, and password.
 python manage.py createsuperuser
 username: admin
 password: app123
