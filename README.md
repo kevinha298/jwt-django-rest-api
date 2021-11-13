@@ -1,5 +1,5 @@
 # simple-auth-django-rest-api-client
-An API with  basic Authentication using docker containers with django and postgresql containers.
+An API with  JSON Web Token (jwt) authentication using docker with django and postgresql containers.
 
 1) Open git bash from local repository directory
 
