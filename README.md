@@ -1,5 +1,5 @@
 # simple-auth-django-rest-api-client
-An API with  JSON Web Token (jwt) authentication using docker with django and postgresql containers.
+An API with  JSON Web Tokens (jwt) authentication using docker with django and postgresql containers.
 
 1) Open git bash from local repository directory
 
@@ -32,6 +32,11 @@ docker-compose exec app sh
 python manage.py createsuperuser
 username: admin
 password: app123
+
+
+
+
+
 
 11) Go to admin site and log in with the username and password above to test:
 http://127.0.0.1:8000/admin
