@@ -47,7 +47,7 @@ password: app123
     http://127.0.0.1:8000/api/token/refresh/
 
 
-12) Use the Client.py app within the project to test different api calls.
+12) Use the Client.py app within the project to test different api calls with different endpoints.
 
 
 
