@@ -25,6 +25,23 @@ def post_data(seq):
     response = requests.post(postEndPoint, data = data, headers = header)
     print(response.text, response.status_code)
 
+#edit data
+def edit_data(employeeID, employeeName, ranking, age):
+    editEndPoint = f'{baseURL}/api/users_list/{employeeID}/'
+    header = {'Authorization': f'Bearer {get_token()}'}
+    data = {
+        'employeeName': f'{employeeName}', 'ranking': {ranking}, 'age': {age}
+    }
+    response = requests.put(editEndPoint, data = data, headers = header)
+    print(response.text, response.status_code)
+
+#delete data
+def delete_data(employeeID):
+    deleteEndPoint = f'{baseURL}/api/users_list/{employeeID}/'
+    header = {'Authorization': f'Bearer {get_token()}'}
+    response = requests.delete(deleteEndPoint, headers = header)
+    print(response.text, response.status_code)
+
 if __name__ == "__main__":
     baseURL = 'http://127.0.0.1:8000'
     # print(get_token())

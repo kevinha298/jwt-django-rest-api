@@ -34,12 +34,18 @@ username: admin
 password: app123
 
 
+11) Use Postman to test different endpoints.
 
+    api endpoints:
+    GET: http://127.0.0.1:8000/api/users_list/
+    POST: http://127.0.0.1:8000/api/users_list/
+    PUT: http://127.0.0.1:8000/api/users_list/3/
+    DELETE: http://127.0.0.1:8000/api/users_list/3/
 
+    tokens endpoints:
+    http://127.0.0.1:8000/api/token/
+    http://127.0.0.1:8000/api/token/refresh/
 
-
-11) Go to admin site and log in with the username and password above to test:
-http://127.0.0.1:8000/admin
 
 12) Use the Client.py app within the project to test different api calls.
 
